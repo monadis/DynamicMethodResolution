@@ -23,7 +23,7 @@
             
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	
+
 	WSBoss *theBoss = [[WSBoss alloc] init];
 	WSEmployee *aWorker = [[WSEmployee alloc] init];
 	theBoss.worker = aWorker;
