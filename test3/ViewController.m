@@ -35,9 +35,6 @@
 	[theBoss performSelector:@selector(completeWorkForMe:) withObject:self];
 
 #pragma clang diagnostic pop
-//	[theBoss performSelector:@selector(doMoreStuffWithMe:andMe:)
-//				  withObject:self
-//				  withObject:self];
 }
 
 - (void)didReceiveMemoryWarning {
