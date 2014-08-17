@@ -35,4 +35,13 @@
     }
 }
 
+// 위의 두 메소드를 comment-out 처리 후 아래의 메소드를 활성화 시켜도 동일한 결과
+
+//-(id)forwardingTargetForSelector:(SEL)aSelector {
+//	if ([self.worker respondsToSelector:aSelector]) {
+//		return self.worker;
+//	}
+//	return nil;
+//}
+
 @end
